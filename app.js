@@ -42,3 +42,30 @@ let binary = convertToBinary(decimal);
 console.log(binary);
 
 // second day second lession done
+
+let maxNumber = Number.MAX_VALUE;
+console.log(maxNumber);
+
+let fruits = [
+  "apple",
+  "banana",
+  "orange",
+  "kiwi",
+  "grape",
+  "pineapple",
+  "mango",
+  "pear",
+  "strawberry",
+  "watermelon",
+];
+console.log(fruits);
+
+let fruitsList = document.getElementById("fruits-list");
+
+for (let i = 0; i < fruits.length; i++) {
+  let listItem = document.createElement("li");
+  listItem.textContent = fruits[i];
+  fruitsList.appendChild(listItem);
+}
+
+// I have stopped at 9 min in video number 21
