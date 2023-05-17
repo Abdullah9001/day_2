@@ -58,7 +58,6 @@ let fruits = [
   "strawberry",
   "watermelon",
 ];
-console.log(fruits);
 
 let fruitsList = document.getElementById("fruits-list");
 
@@ -69,3 +68,24 @@ for (let i = 0; i < fruits.length; i++) {
 }
 
 // I have stopped at 9 min in video number 21
+
+console.log(fruits[fruits.length - 2]);
+
+const otherList = document.getElementById("other-list");
+
+fruits.forEach(myFunction);
+
+function myFunction(value) {
+  const fruitsOlist = document.createElement("li");
+  fruitsOlist.innerText = value;
+  otherList.appendChild(fruitsOlist);
+}
+
+console.log(fruits);
+
+const person = [];
+person["firstname"] = "Abdullah";
+person["lastname"] = "Jubayer";
+
+console.log(person);
+// done javascript array
