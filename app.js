@@ -88,4 +88,17 @@ person["firstname"] = "Abdullah";
 person["lastname"] = "Jubayer";
 
 console.log(person);
+
 // done javascript array
+fruits.pop();
+fruits.shift();
+fruits.unshift("dalim");
+fruits.splice(2, 0, "atafol", "kathal");
+console.log(fruits);
+fruits.splice(2, 2, "bedena", "jamrul");
+
+let cutting = fruits.slice(1, 5);
+console.log(fruits);
+console.log(cutting);
+
+// done javascript array method
