@@ -102,3 +102,57 @@ console.log(fruits);
 console.log(cutting);
 
 // done javascript array method
+
+const flowers = [
+  "Rose",
+  "Sunflower",
+  "Tulip",
+  "Lily",
+  "Daisy",
+  "Orchid",
+  "Hydrangea",
+  "Peony",
+  "Daffodil",
+  "Marigold",
+];
+
+let sorting = flowers.sort();
+
+console.log(sorting);
+
+let revers = flowers.reverse();
+console.log(revers);
+
+const numbers = [46, 48, 39, 12, 2, 1, 83, 74];
+
+function sortFnumber(a, b) {
+  return a - b;
+}
+let sortNumber = numbers.sort(sortFnumber);
+console.log(sortNumber);
+
+let maxNumbers = Math.max(numbers);
+console.log(maxNumbers);
+
+const otherCars = [
+  { type: "Volvo", year: 2016 },
+  { type: "Saba", year: 2001 },
+  { type: "BMW", year: 2006 },
+];
+
+let sortingObject = otherCars.sort(function (a, b) {
+  let x = a.type.toLowerCase();
+  let y = b.type.toLowerCase();
+  if (x < y) {
+    return -1;
+  }
+  if (x > y) {
+    return 1;
+  }
+  return 0;
+});
+
+console.log(sortingObject);
+
+// Array sort lession done
+// Done second day corse
